@@ -87,3 +87,19 @@ summary.lm(simp6)
 The adjusted R-square for sex is -0.008373 which is significantly lower than the neck model.
 
 
+```{r}
+simp7 <- lm(LENGTH~as.numeric(MONTH),data=bears)
+plot(LENGTH~as.numeric(MONTH),data=bears)
+abline(simp7)
+summary.lm(simp7)
+```
+The adjusted R-square for the months model is -0.01153 which is smaller than the neck model.
+
+
+```{r}
+simp8 <- lm(LENGTH~AGE,data=bears)
+plot(LENGTH~AGE,data=bears)
+abline(simp8)
+summary.lm(simp8)
+```
+
