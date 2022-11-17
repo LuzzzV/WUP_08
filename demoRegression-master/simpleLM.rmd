@@ -103,3 +103,7 @@ abline(simp8)
 summary.lm(simp8)
 ```
 
+The R-square for the age model is 0.5073 which is smaller than the neck model.
+
+
+In conclusion, based on the regression models ran for head width, weight, chest, head length, sex, month, and age, the model that was best able to predict the length of a bear other than neck was the head length model which had an adjusted R-square of 0.8434 since it was the model with the biggest number when compared to the neck R-square of 0.7476. 
