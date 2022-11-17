@@ -74,3 +74,16 @@ abline(simp5)
 summary.lm(simp5)
 ```
 
+The adjusted R-square of head length is 0.8434 which is bigger than the neck model and chest model.
+
+
+```{r}
+simp6 <- lm(LENGTH~as.numeric(SEX),data=bears)
+plot(LENGTH~as.numeric(SEX),data=bears)
+abline(simp6)
+summary.lm(simp6)
+```
+
+The adjusted R-square for sex is -0.008373 which is significantly lower than the neck model.
+
+
